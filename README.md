@@ -8,6 +8,7 @@ L’objectif de ce microprojet est de réaliser un compilateur d’un fichier so
 Le langage de programmation :
 On a utilisé le langage java 
 Et pour l’environnement de travail on a choisi l’IDE Eclipse.
+
 Fichier source utilisé:
  
 1ere étape: chargement du fichier source. COMPILA
@@ -20,11 +21,13 @@ Dans cette fonction nous avons déclaré :
 Un premier tableau qui contient les mos clés du programme.
 Un deuxième tableau qui contient la signification de ces mots.
 Apres on a ajouté une boucle pour relier chaque mot clé avec sa signification.
+
 3éme étape : analyse syntaxique :
  
 Dans cette partie du code on va vérifier la syntaxe du code entrée s’elle est correcte.
 Pour les mots clés on vérifier la syntaxe de chaque un
 Et pour les instructions on va parcourir chaque instruction et on vérifier si elle est bien écrite.
+
 4éme étape : analyse Sémantique :
  
 Dans cette partie du code on va faire la définition sémantique du code entrée.
