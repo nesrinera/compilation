@@ -31,11 +31,17 @@ Dans cette partie du code on va faire la définition sémantique du code entrée
 Pour les mots clés on vérifier la syntaxe de chaque un
 Et pour les instructions on va parcourir chaque instruction et on va afficher si c’est une déclaration d’un entier ou un réel par exemple.
 L’affichage de cette partie est comme le tableau du fiche tp
+
 La partie main :
+
 On a fait interface avec 4 boutons et un text area
+
 Pour le bouton charger on va appeler la fonction charger ().
+
 Pour le bouton analyse lexical on va appeler la fonction lexical avec un paramètre « mot ».
+
 Pour le bouton analyse sémantique on va appeler la fonction sémantique avec un paramètre « mot ».
+
 Pour le bouton analyse syntaxique on va appeler la fonction syntax avec un paramètre « mot ».
 
 
